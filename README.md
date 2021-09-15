@@ -19,14 +19,26 @@ This can serve as an example for learning to:
 
 
 # Test
-- Unzip data folder
-- Create a virtual environment with Anaconda:  conda create -n DL_example python=3.6 (Python 3 is compatible with packages)
-- Activate the environment: activate DL_example
-- Change directory to where you cloned the current files: cd ./where files are downloaded
-- Install required libraries: pip install -r requirements.txt
+1. Unzip data folder
+2. Create a virtual environment with Anaconda:  conda create -n DL_example python=3.6 (Python 3 is compatible with packages)
+3. Activate the environment: activate DL_example
+4. Change directory to where you cloned the current files: cd ./where files are downloaded
+5. Install required libraries: pip install -r requirements.txt
 
 To test the notebook version, type the following in the command line:  jupyter notebook
 This will open the notebook which will allow you to run either the grayscale (car_segmentation_Unet_grayscale.ipynb) or RGB (car_segmentation_Unet_rgb.ipynb) version of the code. You should be able to run each cell and get the result.
+
+# Test by Horace, 2021/09/15
+1. Unzip data folder
+2. Create a vritual environment with pyenv (i.e., pyenv virtualenv 3.6.5 unet_car)
+3. Create a local environment (i.e., pyenv local unet_car)
+4. Install required python packages (i.e., pip install -r requirements.txt)
+5. Install tensorflow CPU version (i.e., pip install tensorflow)
+6. Install jupyter notebook (i.e., pip install jupyter)
+7. Start jupyter notebook (i.e., jupyter notebook)
+![image](https://user-images.githubusercontent.com/55008636/133451570-564cf80e-8409-4ea8-bd9c-bd3db4505913.png)
+8. Troubleshooting for "ModuleNotFoundError: No module named 'cv2'"
+9. 
 
 # Reference
 Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." In International Conference on Medical image computing and computer-assisted intervention, pp. 234-241. Springer, Cham, 2015.
