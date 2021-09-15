@@ -37,8 +37,10 @@ This will open the notebook which will allow you to run either the grayscale (ca
 6. Install jupyter notebook (i.e., pip install jupyter)
 7. Start jupyter notebook (i.e., jupyter notebook)
 ![image](https://user-images.githubusercontent.com/55008636/133451570-564cf80e-8409-4ea8-bd9c-bd3db4505913.png)
+
 8. Troubleshooting for "ModuleNotFoundError: No module named 'cv2'"
-9. 
+9. Install jupyter lab (i.e., pip3 install jupyterlab)
+10. Revise the attached notebook with revise path and adam()
 
 # Reference
 Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. "U-net: Convolutional networks for biomedical image segmentation." In International Conference on Medical image computing and computer-assisted intervention, pp. 234-241. Springer, Cham, 2015.
