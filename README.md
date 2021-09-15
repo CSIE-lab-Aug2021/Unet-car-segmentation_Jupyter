@@ -36,7 +36,8 @@ This will open the notebook which will allow you to run either the grayscale (ca
 5. Install tensorflow CPU version (i.e., pip install tensorflow)
 6. Install jupyter notebook (i.e., pip install jupyter)
 7. Start jupyter notebook (i.e., jupyter notebook)
-![image](https://user-images.githubusercontent.com/55008636/133451570-564cf80e-8409-4ea8-bd9c-bd3db4505913.png)
+
+![image](https://user-images.githubusercontent.com/55008636/133459738-dba67e12-fd81-4e91-8ace-c09f727898fd.png)
 
 8. Troubleshooting for "ModuleNotFoundError: No module named 'cv2'"
 9. Install jupyter lab (i.e., pip3 install jupyterlab)
